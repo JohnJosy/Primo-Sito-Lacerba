@@ -1,0 +1,67 @@
+/* Style Generale */
+body {
+	font-family: Corbel, Arial, sans-serif;
+	margin: 0;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+/*********************** HEADER *********************/
+
+#header {
+	background-color: #6ab47b;
+
+}
+
+h1 {
+	font-size: 36px;
+	margin: 0;
+	text-align: center;
+	padding: 15px 0 0 0;
+	color: #fff;
+	text-transform: uppercase;;
+}
+
+h2 {
+	text-align: center;
+	margin: 0;
+	color: #fff;
+}
+.col-3 {
+	width: 33.3%;
+}
+
+
+/******************** MENU **************************/
+
+#nav {
+	background-color: #599a68;
+	text-align: center;
+	list-style: none;
+	padding: 8px;
+}
+
+#nav li {
+	display: inline;
+	padding: 6px 8px 6px 8px;
+}
+
+#nav li a {
+	color: #fff;
+}
+
+#nav li:hover {
+	background-color: #6ab47b;
+}
+
+/*********************** CONTENT ********************/
+
+#content {
+	margin: 30px auto;
+}
+ #content h4 {
+ 	border-bottom: 3px solid #599a68;
+}
